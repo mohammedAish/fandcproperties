@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.container ul {
+    width: 100%;
+}
+
+.small {
+    width: 22rem;
+}
+
+.xsmall {
+    width: 14rem;
+}
+
+
+.papa a {
+    border: solid 1px #d7d7d7;
+    border-radius: 0.2rem;
+    color: #7d7d7d;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem 0.9rem;
+}
+
+.papa:hover a {
+    color: #fdfdfd;
+    background-color: #1d1f20;
+    border: solid 1px #1d1f20;
+}
+.papa.active a {
+    color: #fdfdfd;
+    background-color: #1d1f20;
+    border: solid 1px #1d1f20;
+}
+
+.small li {
+    display: none;
+}
+.small li:first-child {
+    width: 50%;
+    display: inline;
+}
+.small li:first-child a:after {
+    content: "Previous Page";
+}
+.small li:last-child {
+    display: inline;
+}
+.small li:last-child a:after {
+    content: "Next Page";
+}
+
+.xsmall li {
+    display: inline;
+}
+.xsmall li.active {
+    display: inline;
+}
+.xsmall li:first-child {
+    display: inline;
+}
+.xsmall li:first-child a:after {
+    content: "Prev";
+}
+.xsmall li:last-child {
+    display: inline;
+}
+.xsmall li:last-child a:after {
+    content: "Next";
+}

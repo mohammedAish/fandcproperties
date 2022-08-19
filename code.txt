@@ -1,0 +1,2 @@
+ <meta name="keywords" content="<?php echo $rs2['title_en'];?>">
+    <meta name="description" content="<?php echo $rs2["description"]; ?>">
